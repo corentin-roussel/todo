@@ -4,6 +4,8 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+tokio = { version = "1", feature = ["full"] }
+tokio-postgres = "0.7"
 async-std = {version="1.10.0", features = ["attributes"]}
 once_cell = "1.17.1"
 anyhow = "1.0.0"
